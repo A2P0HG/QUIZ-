@@ -1,3 +1,8 @@
+
+
+# Quiz App
+
+```python
 import time
 
 score = 0
@@ -54,5 +59,7 @@ elif answer.lower() == correct_answer2:
 else:
     print("Wrong")
     print("Correct answer is:", correct_answer2)
-print("quiz finished")
 
+print("Quiz finished")
+print("Final score:", score)
+```
