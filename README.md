@@ -1,4 +1,19 @@
+Markdown
+# Python Quiz App
 
+A beginner-friendly quiz application made using Python.  
+This program asks questions, checks answers, measures response time, and calculates the final score.
+
+## Features
+- Multiple quiz questions
+- Timer feature
+- Score tracking
+- Answer validation
+- Beginner-friendly project
+
+## Technologies Used
+- Python
+- time module
 
 # Quiz App
 
