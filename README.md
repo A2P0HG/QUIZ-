@@ -19,6 +19,7 @@ Final score display
 User-friendly interaction
 This project is useful for Python beginners to practice logic building and understand how real quiz applications work.
 # Quiz App
+...python
 import time
 
 score = 0
@@ -99,6 +100,7 @@ else:
         print("Wrong again!")
         print("Correct answer is:", correct_answer2)
 
-# Final Result
+ Final Result
 print("\nQuiz Finished!")
 print("Final Score:", score)
+...
