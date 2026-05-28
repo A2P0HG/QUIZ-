@@ -1,30 +1,35 @@
-Markdown
+# Python Quiz App with Timer and Hint System
 
-This project is a beginner-level Python Quiz Application made using basic Python programming concepts. The quiz asks users multiple questions, takes answers as input, checks whether the answers are correct or wrong, and displays the final score at the end.
-The project also includes a timer feature that measures how much time the user takes to answer each question. If the user gives a wrong answer, the app provides a helpful hint and gives a second chance to answer correctly. This makes the quiz more interactive and user-friendly.
-The project uses important Python concepts such as:
-Variables
-Input and Output
-Conditional Statements (if, elif, else)
-Time Module
-String Functions (lower())
-Score Counter
-Nested Conditions
-Features of the Quiz App:
-Multiple quiz questions
-Timer for each question
-Hint system
-Retry/second chance feature
-Final score display
-User-friendly interaction
-This project is useful for Python beginners to practice logic building and understand how real quiz applications work.
-# Quiz App
-...python
+## Project Description
+
+This is a beginner-level Python Quiz Application created using basic Python concepts.
+
+The quiz asks multiple questions, checks whether the answers are correct or wrong, gives hints for wrong answers, and displays the final score at the end.
+
+The project also includes a timer feature that measures how much time the user takes to answer each question.
+
+---
+
+## Features
+
+- Multiple quiz questions
+- Timer for each question
+- Hint system
+- Retry/Second chance feature
+- Final score display
+- Beginner-friendly Python project
+
+---
+
+## Python Code
+
+```python
 import time
 
 score = 0
 
-# Question 1
+# ---------------- Question 1 ----------------
+
 question1 = "Which is the national bird of India?"
 correct_answer1 = "peacock"
 
@@ -62,7 +67,8 @@ else:
         print("Wrong again!")
         print("Correct answer is:", correct_answer1)
 
-# Question 2
+# ---------------- Question 2 ----------------
+
 question2 = "What is the name of Prime Minister of India?"
 correct_answer2 = "narendra modi"
 
@@ -100,7 +106,36 @@ else:
         print("Wrong again!")
         print("Correct answer is:", correct_answer2)
 
- Final Result
+# ---------------- Final Result ----------------
+
 print("\nQuiz Finished!")
 print("Final Score:", score)
-...
+```
+
+---
+
+## Concepts Used
+
+- Variables
+- Input and Output
+- if-elif-else statements
+- Nested conditions
+- String functions
+- Score counter
+- Timer using time module
+
+---
+
+## Future Improvements
+
+- Add more questions
+- Add difficulty levels
+- Add leaderboard
+- Create GUI version
+- Random question generator
+
+---
+
+## Author
+
+Riona Chawla 
